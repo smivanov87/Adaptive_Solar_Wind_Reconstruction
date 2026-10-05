@@ -49,8 +49,9 @@ if length(TS)~=length(TSg)
     return;
 end
 
-if length(TS)<100000
-    disp('The input time series is too short. At least 100,000 samples are required.');
+if length(TS)<dt+1000 %100000
+    % disp('The input time series is too short. At least 100,000 samples are required.');
+    disp(strcat('The input time series is too short. At least ', num2str(dt+1000), ' samples are required.'));
     return;
 end
 
@@ -70,7 +71,8 @@ end
     TSls=fillgaps(TS,gaps_mask,'lin');
     
         for i=1:n-1
-            if k(i+1)-k(i)>1 && k(i+1)-k(i)<1000 && k(i+1)<(sum(TSg~=gaps_mask2)-dt-2 ) && length(k(1:i))>dt
+            % if k(i+1)-k(i)>1 && k(i+1)-k(i)<1000 && k(i+1)<(sum(TSg~=gaps_mask2)-dt-2 ) && length(k(1:i))>dt
+            if k(i+1)-k(i)>1 && k(i+1)-k(i)<1000 && k(i+1)<=(sum(TSg~=gaps_mask2) ) && length(k(1:i))>dt
                 p1=k(i);
                 p2=k(i+1);
                 g=p2-p1-1; %length of gap            
@@ -150,7 +152,7 @@ end
                     
                     TS(p2-1-g+j)=X(end,:)*b;
                    
-                    disp(strcat('gap',num2str(g),'-',num2str(j),'h =',' sizeX=',num2str(size(X)),'; degree=',num2str(deg_kg),'; r=',num2str(corr(X*b, TSp)),'; rmse= ',num2str(rmse(X*b, TSp)) ) );
+                    disp(strcat(num2str(k(i+1)),'- gap',num2str(g),'-',num2str(j),'h =',' sizeX=',num2str(size(X)),'; degree=',num2str(deg_kg),'; r=',num2str(corr(X*b, TSp)),'; rmse= ',num2str(rmse(X*b, TSp)) ) );
                     % '; rankX=',num2str(rank(X)),'; rankX|Y',num2str(rank([X TSp])),
                    end 
                    TSls=fillgaps(TS,gaps_mask,'lin');
