@@ -1,5 +1,5 @@
 # Adaptive Solar Wind Reconstruction
-MATLAB tools for adaptive reconstruction and gap filling of solar-wind parameters over gaps of up to 1000 hours using the hourly OMNI2 solar-wind dataset.
+MATLAB tools for adaptive reconstruction of missing solar-wind parameters from geomagnetic indices, enabling gap filling of up to 1000 hours in the hourly OMNI2 dataset.
 # Author
 Serhii M. Ivanov
 # Repository Contents
