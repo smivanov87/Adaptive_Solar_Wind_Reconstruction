@@ -17,6 +17,12 @@ Serhii M. Ivanov
 ## OMNI2 Solar-Wind Data
 The solar-wind data used in this work are based on the OMNI2 dataset. For details on the OMNI2 dataset and the processing of hourly solar-wind measurements, see:
 King, J. H., & Papitashvili, N. E. (2005). Solar wind spatial scales in and comparisons of hourly Wind and ACE plasma and magnetic field data. Journal of Geophysical Research: Space Physics, 110(A2), A02104. https://doi.org/10.1029/2004JA010649
+
+The OMNI data were obtained from the GSFC/SPDF OMNIWeb interface at https://omniweb.gsfc.nasa.gov
+
+Papitashvili, Natalia E. and King, Joseph H. (2020), "OMNI Hourly Data" {Data Set], 
+NASA Space Physics Data Facility, https://doi.org/10.48322/1shr-ht18, Accessed on 05.10.2026
+
 ## Geomagnetic Indices
 The Dst index was provided by the World Data Center (WDC) for Geomagnetism, Kyoto, via OMNI2 (http://wdc.kugi.kyoto-u.ac.jp/wdc/Sec3.html), while the Kp index was provided by GFZ Potsdam via OMNI2 (https://kp.gfz-potsdam.de/en/)
 
