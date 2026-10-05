@@ -26,3 +26,8 @@ NASA Space Physics Data Facility, https://doi.org/10.48322/1shr-ht18, Accessed o
 ## Geomagnetic Indices
 The Dst index was provided by the World Data Center (WDC) for Geomagnetism, Kyoto, via OMNI2 (http://wdc.kugi.kyoto-u.ac.jp/wdc/Sec3.html), while the Kp index was provided by GFZ Potsdam via OMNI2 (https://kp.gfz-potsdam.de/en/)
 
+## Related Published Code
+Ivanov, S. M., Jackman, C. M., Fogg, A. R., & Walker, S. J. (2026). Gap Filling in Solar Wind Time Series (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22181986
+
+Repository URL 
+https://github.com/smivanov87/Gap_Filling_in_Solar_Wind_Time_Series
