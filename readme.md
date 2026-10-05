@@ -20,7 +20,7 @@ King, J. H., & Papitashvili, N. E. (2005). Solar wind spatial scales in and comp
 
 The OMNI data were obtained from the GSFC/SPDF OMNIWeb interface at https://omniweb.gsfc.nasa.gov
 
-Papitashvili, Natalia E. and King, Joseph H. (2020), "OMNI Hourly Data" {Data Set], 
+Papitashvili, Natalia E. and King, Joseph H. (2020), "OMNI Hourly Data" [Data Set], 
 NASA Space Physics Data Facility, https://doi.org/10.48322/1shr-ht18, Accessed on 05.10.2026
 
 ## Geomagnetic Indices
