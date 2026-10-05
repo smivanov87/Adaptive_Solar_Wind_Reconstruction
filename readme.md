@@ -3,14 +3,14 @@ MATLAB tools for adaptive reconstruction and gap filling of solar-wind parameter
 ## Author
 Serhii M. Ivanov
 ## Repository Contents
-File	Description
-Kpoly2.m	Generates a multivariate polynomial design matrix up to a specified polynomial degree.
-exp2eq.m	Converts an exponent matrix into symbolic/LaTeX polynomial expressions.
-polyexp.m	Generates exponent combinations for multivariate polynomial terms.
-fillgaps.m	Utilities for filling gaps in solar-wind time-series data.
-fillgapsREGa2.m	Adaptive method to filling gaps in the data.
-kg_terms.m	Generates terms used by the reconstruction methodology.
-main_AdaptiveREG.m - Start here. Main script for running the adaptive reconstruction workflow.
+# File	Description
+- Kpoly2.m	Generates a multivariate polynomial design matrix up to a specified polynomial degree.
+ -exp2eq.m	Converts an exponent matrix into symbolic/LaTeX polynomial expressions.
+- polyexp.m	Generates exponent combinations for multivariate polynomial terms.
+- fillgaps.m	Utilities for filling gaps in solar-wind time-series data.
+- fillgapsREGa2.m	Adaptive method to filling gaps in the data.
+- kg_terms.m	Generates terms used by the reconstruction methodology.
+- main_AdaptiveREG.m - Start here. Main script for running the adaptive reconstruction workflow.
 ## References and Data Sources
 # OMNI2 Solar-Wind Data
 The solar-wind data used in this work are based on the OMNI2 dataset. For details on the OMNI2 dataset and the processing of hourly solar-wind measurements, see:
