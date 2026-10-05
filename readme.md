@@ -4,6 +4,8 @@ MATLAB tools for adaptive reconstruction of missing solar-wind parameters from g
 Serhii M. Ivanov
 # Repository Contents
 ## File	Description
+- readme.md
+- LICENSE
 - Kpoly2.m	Generates a multivariate polynomial design matrix up to a specified polynomial degree.
  -exp2eq.m	Converts an exponent matrix into symbolic/LaTeX polynomial expressions.
 - polyexp.m	Generates exponent combinations for multivariate polynomial terms.
