@@ -40,7 +40,7 @@ save(fullfile(OMNI_folder, 'By.mat'), 'By');
 'Bz'; ma=999.9; TSg=omni2_all_years(t1:t2,41); gaps_mask2=99999; Bz=fillgapsREGa2(omni2_all_years(t1:t2,17),ma,4,4,TSg,gaps_mask2,4,6,3000,5); %Bz
 save(fullfile(OMNI_folder, 'Bz.mat'), 'Bz');
 
-plot(V); hold on; plot(omni2_all_years(t1:t2,25)); hold off; 
+% plot(V); hold on; plot(omni2_all_years(t1:t2,25)); hold off; 
 
 
 
